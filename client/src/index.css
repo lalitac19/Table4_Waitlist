@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(45, 29%, 95%);
+  --foreground: hsl(210, 22%, 22%);
+  --muted: hsl(45, 20%, 92%);
+  --muted-foreground: hsl(210, 11%, 45%);
+  --popover: hsl(45, 29%, 95%);
+  --popover-foreground: hsl(210, 22%, 22%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(210, 22%, 22%);
+  --border: hsl(45, 20%, 87%);
+  --input: hsl(45, 20%, 87%);
+  --primary: hsl(262, 83%, 58%);
+  --primary-foreground: hsl(220, 91%, 97%);
+  --secondary: hsl(45, 20%, 92%);
+  --secondary-foreground: hsl(210, 40%, 8%);
+  --accent: hsl(45, 20%, 92%);
+  --accent-foreground: hsl(210, 40%, 8%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(60, 9%, 98%);
+  --ring: hsl(262, 83%, 58%);
+  --radius: 0.5rem;
+  
+  /* Custom colors for Table4 branding */
+  --beige: hsl(45, 29%, 95%);
+  --beige-light: hsl(45, 43%, 97%);
+  --purple-primary: hsl(262, 83%, 58%);
+  --purple-secondary: hsl(276, 75%, 68%);
+  --text-primary: hsl(210, 22%, 22%);
+  --text-secondary: hsl(210, 11%, 45%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 4%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 4%, 16%);
+  --muted-foreground: hsl(240, 5%, 65%);
+  --popover: hsl(240, 10%, 4%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 4%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 4%, 16%);
+  --input: hsl(240, 4%, 16%);
+  --primary: hsl(262, 83%, 58%);
+  --primary-foreground: hsl(220, 91%, 97%);
+  --secondary: hsl(240, 4%, 16%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 4%, 16%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 5%, 84%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    background-color: var(--beige);
+    color: var(--text-primary);
+  }
+}
+
+@layer utilities {
+  .bg-beige {
+    background-color: var(--beige);
+  }
+  
+  .bg-beige-light {
+    background-color: var(--beige-light);
+  }
+  
+  .bg-purple-primary {
+    background-color: var(--purple-primary);
+  }
+  
+  .bg-purple-secondary {
+    background-color: var(--purple-secondary);
+  }
+  
+  .text-primary {
+    color: var(--text-primary);
+  }
+  
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  
+  .hover\:bg-purple-secondary:hover {
+    background-color: var(--purple-secondary);
+  }
+}
