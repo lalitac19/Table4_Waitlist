@@ -24,13 +24,13 @@
   --ring: hsl(262, 83%, 58%);
   --radius: 0.5rem;
   
-  /* Custom colors for Table4 branding */
-  --beige: hsl(45, 29%, 95%);
-  --beige-light: hsl(45, 43%, 97%);
-  --purple-primary: hsl(262, 83%, 58%);
-  --purple-secondary: hsl(276, 75%, 68%);
-  --text-primary: hsl(210, 22%, 22%);
-  --text-secondary: hsl(210, 11%, 45%);
+  /* Custom colors for Table4 branding - matching the logo */
+  --beige: hsl(45, 50%, 88%);
+  --beige-light: hsl(45, 55%, 92%);
+  --purple-primary: hsl(262, 47%, 35%);
+  --purple-secondary: hsl(262, 47%, 45%);
+  --text-primary: hsl(262, 47%, 35%);
+  --text-secondary: hsl(262, 30%, 50%);
 }
 
 .dark {

@@ -112,8 +112,11 @@ Preferred communication style: Simple, everyday language.
 - **Static Assets**: Served directly by Express in production
 
 ### Key Features
-- **Restaurant Branding**: Custom "Table4" branding with purple theme
+- **Restaurant Branding**: Custom "Table4" branding with beige/purple theme matching official logo
+- **Custom Logo**: SVG recreation of official Table4 logo showing 4 people around a table
 - **Responsive Design**: Mobile-first approach with adaptive layouts
 - **Type Safety**: End-to-end TypeScript coverage
 - **Modern UI**: shadcn/ui components with consistent design system
 - **Performance**: Optimized build process and efficient state management
+- **Waitlist Integration**: Direct linking to Airtable form for waitlist signups
+- **Multi-City Launch**: Targeting London and Dubai markets
